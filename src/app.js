@@ -9,7 +9,7 @@ let dolarBugun = 9.3;
 console.log(dolarDun);
 const euroDun = 11.1;
 let konutKredileri = [12, "Emlak Konut Kredisi", ["a", "b", "c"]];
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < konutKredileri.length; i++) {
   console.log("<li>" + konutKredileri[i] + "</li>");
 }
 //camelCase
